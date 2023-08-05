@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		06D62E082A7E2B0F00C813EE /* Pods_SwiftUiCustomCalendar_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2F7087AB1E35C6F1B5483E9 /* Pods_SwiftUiCustomCalendar_Example.framework */; };
-		06D62E092A7E2B0F00C813EE /* Pods_SwiftUiCustomCalendar_Example.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D2F7087AB1E35C6F1B5483E9 /* Pods_SwiftUiCustomCalendar_Example.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		0B4D7E3C03BD6C919F4DB8DA /* Pods_SwiftUiCustomCalendar_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BD35FC4CF5E94DB00486406 /* Pods_SwiftUiCustomCalendar_Tests.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
@@ -27,20 +26,6 @@
 			remoteInfo = SwiftUiCustomCalendar;
 		};
 /* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		06D62E0A2A7E2B0F00C813EE /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				06D62E092A7E2B0F00C813EE /* Pods_SwiftUiCustomCalendar_Example.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		0BD35FC4CF5E94DB00486406 /* Pods_SwiftUiCustomCalendar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftUiCustomCalendar_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -186,7 +171,6 @@
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
 				E3322DE0808FAFA2F6CBD743 /* [CP] Embed Pods Frameworks */,
-				06D62E0A2A7E2B0F00C813EE /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
