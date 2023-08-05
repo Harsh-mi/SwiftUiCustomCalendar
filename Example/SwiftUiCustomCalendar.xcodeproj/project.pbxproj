@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		06D62E082A7E2B0F00C813EE /* Pods_SwiftUiCustomCalendar_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2F7087AB1E35C6F1B5483E9 /* Pods_SwiftUiCustomCalendar_Example.framework */; };
+		06D62E092A7E2B0F00C813EE /* Pods_SwiftUiCustomCalendar_Example.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D2F7087AB1E35C6F1B5483E9 /* Pods_SwiftUiCustomCalendar_Example.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		0B4D7E3C03BD6C919F4DB8DA /* Pods_SwiftUiCustomCalendar_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BD35FC4CF5E94DB00486406 /* Pods_SwiftUiCustomCalendar_Tests.framework */; };
-		20C31D479367CBC0827C202C /* Pods_SwiftUiCustomCalendar_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2F7087AB1E35C6F1B5483E9 /* Pods_SwiftUiCustomCalendar_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -26,6 +27,20 @@
 			remoteInfo = SwiftUiCustomCalendar;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		06D62E0A2A7E2B0F00C813EE /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				06D62E092A7E2B0F00C813EE /* Pods_SwiftUiCustomCalendar_Example.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		0BD35FC4CF5E94DB00486406 /* Pods_SwiftUiCustomCalendar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftUiCustomCalendar_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -54,7 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20C31D479367CBC0827C202C /* Pods_SwiftUiCustomCalendar_Example.framework in Frameworks */,
+				06D62E082A7E2B0F00C813EE /* Pods_SwiftUiCustomCalendar_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -171,6 +186,7 @@
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
 				E3322DE0808FAFA2F6CBD743 /* [CP] Embed Pods Frameworks */,
+				06D62E0A2A7E2B0F00C813EE /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -216,6 +232,7 @@
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 7224G6JACN;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -507,6 +524,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 66B845BCE853DE68621007E2 /* Pods-SwiftUiCustomCalendar_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 7224G6JACN;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -529,6 +547,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4612C705CBA846DF9BF707A6 /* Pods-SwiftUiCustomCalendar_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 7224G6JACN;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
