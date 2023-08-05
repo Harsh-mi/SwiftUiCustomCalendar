@@ -11,6 +11,9 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
+Deployment target should be iOS 15.0 or later.
+Calendar Height should be more than 200 and less than 600.
+
 ## Installation
 
 SwiftUiCustomCalendar is available through [CocoaPods](https://cocoapods.org). To install
@@ -19,10 +22,18 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'SwiftUiCustomCalendar'
 ```
+if pod install not working then first hit this command
+
+```ruby
+pod outdated
+```
+for updating repo
+
+then do pod install
 
 ## Author
 
-riddhi-mi, riddhi.patel.mi@gamil.com
+Harsh-mi, harsh.parikh@mindinventory.com
 
 ## License
 

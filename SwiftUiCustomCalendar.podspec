@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SwiftUiCustomCalendar'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of SwiftUiCustomCalendar.'
+  s.version          = '0.1.1'
+  s.summary          = 'This calendar is created using swiftUI only no UIKit dependency is there.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,19 +18,25 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  'This SwiftUICalendar allows you to use calendar without any dependency of UIKit. You have to pass Date and Height for the calendar and Height should be between 200 - 600 range.'
                        DESC
 
-  s.homepage         = 'https://github.com/riddhi-mi/SwiftUiCustomCalendar'
+  s.homepage         = 'https://github.com/Harsh-mi/SwiftUiCustomCalendar'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'riddhi-mi' => 'riddhi.patel.mi@gamil.com' }
-  s.source           = { :git => 'https://github.com/riddhi-mi/SwiftUiCustomCalendar.git', :tag => s.version.to_s }
+  s.author           = { 'Harsh-mi' => 'harsh.parikh@mindinventory.com' }
+  s.source           = { :git => 'https://github.com/Harsh-mi/SwiftUiCustomCalendar.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
-
-  s.source_files = 'SwiftUiCustomCalendar/Classes/**/*'
+  s.source_files = 'Classes/**/*.swift'
+  
+  s.ios.deployment_target = '15.0'
+      
+  s.swift_version = '5.0'
+  
+  s.requires_arc = true
+  
+  s.platform = :ios
   
   # s.resource_bundles = {
   #   'SwiftUiCustomCalendar' => ['SwiftUiCustomCalendar/Assets/*.png']
